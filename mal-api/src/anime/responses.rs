@@ -87,11 +87,11 @@ pub struct AnimeListStatus {
     pub is_rewatching: bool,
     pub start_date: Option<String>,
     pub finish_date: Option<String>,
-    pub priority: u8,
-    pub num_times_rewatched: u32,
-    pub rewatch_value: u8,
-    pub tags: Vec<String>,
-    pub comments: String,
+    pub priority: Option<u8>,
+    pub num_times_rewatched: Option<u32>,
+    pub rewatch_value: Option<u8>,
+    pub tags: Option<Vec<String>>,
+    pub comments: Option<String>,
     pub updated_at: String,
 }
 

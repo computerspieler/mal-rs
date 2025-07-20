@@ -890,6 +890,7 @@ pub enum AnimeField {
     average_episode_duration,
     rating,
     studios,
+    list_status,
 }
 
 #[derive(Debug, EnumIter, PartialEq)]
